@@ -1,0 +1,21 @@
+{
+  "name": "expressive-tea.example",
+  "version": "1.0.0",
+  "description": "A Expressive Tea Example",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn  --project tsconfig.json main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zerooneit/expressive-tea": "0.0.4-Alpha"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "@types/reflect-metadata": "^0.1.0",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.5"
+  }
+}
