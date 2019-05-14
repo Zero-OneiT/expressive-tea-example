@@ -4,18 +4,19 @@
   "description": "A Expressive Tea Example",
   "main": "main.ts",
   "scripts": {
-    "start": "ts-node-dev --respawn  --project tsconfig.json main.ts",
+    "start": "ts-node-dev --respawn --project tsconfig.json main.ts",
+    "dev": "tsc -p tsconfig.json && ts-node-dev --respawn --project tsconfig.json main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zerooneit/expressive-tea": "0.0.4-Alpha"
+    "@zerooneit/expressive-tea": "0.0.5-Beta",
+    "typescript": "^3.4.5"
   },
   "devDependencies": {
     "@types/node": "^11.13.0",
     "@types/reflect-metadata": "^0.1.0",
-    "ts-node-dev": "^1.0.0-pre.32",
-    "typescript": "^3.4.5"
+    "ts-node-dev": "^1.0.0-pre.32"
   }
 }
