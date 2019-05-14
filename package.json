@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zerooneit/expressive-tea": "0.0.4-Alpha"
+    "@zerooneit/expressive-tea": "^0.0.4-Alpha"
   },
   "devDependencies": {
     "@types/node": "^11.13.0",
