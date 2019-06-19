@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zerooneit/expressive-tea": "^0.0.4-Alpha",
+    "@zerooneit/expressive-tea": "0.0.6-RC1",
     "typescript": "^3.4.5"
   },
   "devDependencies": {
