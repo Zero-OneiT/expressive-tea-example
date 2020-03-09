@@ -1,3 +1,6 @@
+# Notice of Archive:
+This repository is not longer active or used as demo of **Expressive Tea** please use the new example repository [here](https://github.com/Zero-OneiT/expressive-tea-sandbox)
+
 # Expressive Tea Example
 
 This demo app will bootstrap your development by running a few commands allowing you to focus on your functionality rather than complicated setups.
